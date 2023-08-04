@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+# @author : konakona<konakona@crazyphper.com>
  
 import time
 import datetime
@@ -18,5 +19,5 @@ while 1:
     if leaveTime < currentTime:
         print("脚本已经完成了它的使命！期待您下一次的摸鱼！WLB")
         exit()
-    pyautogui.moveTo(360, 450, 1)
+    pyautogui.moveTo(360, 450, 1) 
     pyautogui.moveTo(1100, 450, 1)
